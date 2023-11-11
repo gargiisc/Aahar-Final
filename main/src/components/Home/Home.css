@@ -526,35 +526,8 @@ html, body{
 
 /* mobileresponsive */
 @media only screen and (max-width: 600px) {
-  .abstract-design-icon,
-.abstract-design-icon1 {
-  position: absolute;
-  margin: 0 !important;
-  height: 75.71px;
-}
-.abstract-design-icon {
-  top: calc(50% - 1.92px);
-  left: 0;
-  width: 143.69px;
-  z-index: 0;
-}
-.abstract-design-icon1 {
-  top: calc(50% + 15.08px);
-  right: 0;
-  width: 72.35px;
-  z-index: 1;
-}
-.icon,
-.text {
-  position: relative;
-}
-.icon {
-  width: 20px;
-  height: 20px;
-}
-.text {
-  font-weight: 500;
-}
+
+
 .sub-container {
   display: flex;
   flex-direction: row;
