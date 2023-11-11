@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import './CalorieCalculator.css'; 
-import Navbar from '../NavBar/Navbar';
+
 
 const CalorieCalculator = () => {
   const [food, setFood] = useState('');
@@ -155,7 +155,7 @@ const CalorieCalculator = () => {
 
   return (
     <div className="calorie-calculator-container">
-      <Navbar/>
+      
       <div className="calorie-calculator-box">
         <h1>Calorie Calculator</h1>
         <label>
