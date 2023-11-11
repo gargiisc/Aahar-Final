@@ -16,16 +16,14 @@ export class Navbar extends Component {
           <Link to="/Home.js"> Home </Link>
             <Link to="/Bmi"> BMI </Link>
             <Link to="/Calorie">Calorie Calculator</Link>
-            <a href="">Health Bot</a>
-            <Link to="/page.js">Journal</Link>
+            <Link to="/HealthBot">Health Bot</Link>
+            <Link to="/page">Journal</Link>
             <a href="">Blogs</a>
-            
             <a href="">Contact us</a>
           </div>
           <div className="log-in">
             <button className="login"><Link to="/login"> Login </Link></button>
           </div>
-
           <div className="sign-up">
             <button className="signup"><Link to="/signup"> Sign Up </Link></button>
           </div>
