@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import './Home.css';
 import './Scroll'
 import Navbar from '../NavBar/Navbar';
 
-function Home(props) {
+
+
+
+
+function Home(props){
+
   return (
     <div>
       <Navbar/>
@@ -12,6 +17,7 @@ function Home(props) {
 
       {/* MainPage */}
       <div className="hero-section">
+        <Link to=""></Link>
         <img className="image-icon" alt="" src="/image.gif" />
         <div className="container2">
           <div className="sub-container1">
@@ -152,7 +158,7 @@ function Home(props) {
                 <div className="text-container2">
                   <div className="text5">Weight Loss</div>
                   <div className="heading10">
-                    The Benefits of Hydration for Weight Loss
+                  <Link to="/Blog">The Benefits of Hydration for Weight Loss</Link>
                   </div>
                 </div>
                 <div className="paragraph9">
@@ -175,7 +181,7 @@ function Home(props) {
                 <div className="text-container2">
                   <div className="text5">Understanding Macronutrients</div>
                   <div className="heading10">
-                    Carbohydrates, Proteins, and Fats
+                  <Link to="/Blog1">Carbohydrates, Proteins, and Fats</Link>
                   </div>
                 </div>
                 <div className="paragraph9">
@@ -195,12 +201,13 @@ function Home(props) {
 
           <div className="sub-container7">
             <div className="card6">
+            <Link to="/Blog2"></Link>
               <img className="image-icon6" alt="" src="/Untitled1.png" />
               <div className="container14">
                 <div className="text-container2">
                   <div className="text5">Mindful Eating</div>
                   <div className="heading10">
-                    Cultivating a Healthy Relationship with Food
+                  <Link to="/Blog2">Cultivating a Healthy Relationship with Food</Link>
                   </div>
                 </div>
                 <div className="paragraph9">
@@ -223,7 +230,7 @@ function Home(props) {
               <div className="container14">
                 <div className="text-container2">
                   <div className="text5">Healthy Snacks on the Go</div>
-                  <div className="heading10">Quick and Nutritious Options</div>
+                  <div className="heading10"> <Link to="/Blog2">Quick and Nutritious Options</Link></div>
                 </div>
                 <div className="paragraph9">
                   Explore a variety of convenient and healthy snack ideas to
@@ -245,36 +252,39 @@ function Home(props) {
 
       {/* Footer */}
 
-      {/* <footer className="footer-container">
-      <div className="footer-section">
+      
+      {/* <div className="footer-section">
         <img src="/Aahar logo.svg" alt="Company Logo" className="footer-logo" />
         <h2>AAHAR</h2>
       </div>
       <div className="footer-section">
         <h2>Company</h2>
         <ul>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Carrer</a></li>
-          <li><a href="/">Mobile</a></li>
+          <li>About</li>
+          <li>Why Aahar</li>
+          <li>Career</li>
         </ul>
       </div>
       <div className="footer-section">
         <h2>Contact us</h2>
         <ul>
-          <li><a href="/">Why Aahar?</a></li>
-          <li><a href="/">Partner with us</a></li>
-          <li><a href="/">FAQ's</a></li>
+          <li>About</li>
+          <li>Why Aahar</li>
+          <li>Career</li>
         </ul>
       </div>
       <div className="footer-section">
         <h2>Meet us</h2>
         <ul>
-          <li><a href="/">+00 92 4567 9876</a></li>
-          <li><a href="/">AAHAR@info.com</a></li>
-          <li><a href="/">XYZ,Mumbai,400049</a></li>
+          <li>About</li>
+          <li>Why Aahar</li>
+          <li>Career</li>
         </ul>
-      </div>
-    </footer> */}
+      </div> */}
+    
+
+
+
 
     </div>
   );
