@@ -1,0 +1,63 @@
+.frame-child {
+  position: absolute;
+  top: 295px;
+  left: 214px;
+  width: 604px;
+  height: 575px;
+  object-fit: cover;
+}
+.h2{
+  margin: auto;
+  padding: auto;
+}
+.blog-inner {
+  position: absolute;
+  top: 341px;
+  left: 207px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1031px;
+  height: 1268px;
+  overflow: hidden;
+}
+.health-food-refers {
+  margin: 0;
+}
+.health-food-refers-container,
+.lean-proteins-like-container {
+  position: absolute;
+  top: 432px;
+  left: 385px;
+  line-height: 22px;
+  display: inline-block;
+  width: 822px;
+  height: 217px;
+}
+.lean-proteins-like-container {
+  top: 1238px;
+  left: 346px;
+  width: 784px;
+  height: 197px;
+}
+
+.optimism-is-the {
+  top: calc(50% - 1153px);
+  left: calc(50% - 384px);
+  font-size: 36px;
+  line-height: 43px;
+  color: #363940;
+  text-align: center;
+  width: 769px;
+  height: 37px;
+}
+
+.blog {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 2624px;
+  overflow: hidden;
+  text-align: left;
+}
