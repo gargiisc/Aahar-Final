@@ -13,6 +13,7 @@ import Blog from "./components/Blog/Blog";
 import Blog1 from "./components/Blog/Blog1";
 import Blog2 from "./components/Blog/Blog2";
 import Blog3 from "./components/Blog/Blog3";
+import HealthBot from "./components/HealthBot/HealthBot";
 
 
 
@@ -44,6 +45,7 @@ function App() {
           <Route path="/Blog1" element={<Blog1 />} />
           <Route path="/Blog2" element={<Blog2 />} />
           <Route path="/Blog3" element={<Blog3 />} />
+          <Route path="/HealthBot" element={<HealthBot />} />
           <Route path="/" element={<Home name={userName} />} />
           
           
@@ -51,6 +53,13 @@ function App() {
           
         </Routes>
       </Router>
+      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="HealthBot"
+  agent-id="8a052415-abf8-47d5-b18f-59d6589fbc6c"
+  language-code="en"
+></df-messenger>
     </div>
   );
 }
